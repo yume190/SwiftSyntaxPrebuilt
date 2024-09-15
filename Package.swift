@@ -3,7 +3,7 @@
 import PackageDescription
 import Foundation
 
-let url = "https://github.com/yume190/SwiftSyntaxPrebuilt/releases/download/510.0.1"
+let url = "https://github.com/yume190/swift-syntax/releases/download/510.0.1"
 
 func prebuiltTarget(name: String, checksum: String, dependencies: [Target.Dependency] = []) -> [Target] {
     return [
