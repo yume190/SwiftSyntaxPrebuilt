@@ -5,7 +5,7 @@ import Foundation
 
 let url = "https://github.com/yume190/SwiftSyntaxPrebuilt/releases/download/510.0.1"
 
-func prebuiltTarget(name: String, checksum: String, dependencies: [Target.Dependency] = []) -> [Target] { [Target] {
+func prebuiltTarget(name: String, checksum: String, dependencies: [Target.Dependency] = []) -> [Target] {
     return [
         .binaryTarget(
             name: name,
