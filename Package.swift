@@ -24,7 +24,7 @@ func prebuiltTarget(name: String, checksum: String, dependencies: [Target.Depend
 let targets: [[Target]] = [
     prebuiltTarget(
         name: "_SwiftSyntaxTestSupport",
-        checksum: "7f8dac48da1a17ee8a673f9514a433af7af9bf8c0a65cf9f99c9d54f6c9d8ace",
+        checksum: "6dbda6902fe7d62ed6f42430f0c04a002bb95b456d5e36f0c3ee83b17e90c882",
         dependencies: [
             "SwiftBasicFormat_Aggregation",
             "SwiftSyntax_Aggregation",
@@ -33,7 +33,7 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftSyntaxMacrosTestSupport",
-        checksum: "1e4dff4165db75815f0cffa6ef36539e545f6e7cca369d381f1310c41629fd9f",
+        checksum: "954ddf82dfbefa74230afe51f89f485d1ba4569fe56af837a54c5a1efd24b603",
         dependencies: [
             "_SwiftSyntaxTestSupport_Aggregation",
             "SwiftDiagnostics_Aggregation",
@@ -44,7 +44,7 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftSyntaxMacros",
-        checksum: "81ba9453122ddb521f836e80081833ca4c7c74744ae4e536d49de2f33d15b830",
+        checksum: "561a7e336778fd41ba96ebd7b827abba57f3da330816e5b66d8a054215e2c032",
         dependencies: [
             "SwiftDiagnostics_Aggregation",
             "SwiftParser_Aggregation",
@@ -54,7 +54,7 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftSyntaxMacroExpansion",
-        checksum: "800701efddd4d3aeff770e389d3efbf630877621c3dfadde64a1d7706c806409",
+        checksum: "450a9837785bed957749902609748c11613ce6019b83e79875b0947c551a1420",
         dependencies: [
             "SwiftSyntax_Aggregation",
             "SwiftSyntaxBuilder_Aggregation",
@@ -65,7 +65,7 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftSyntaxBuilder",
-        checksum: "d0a61bffe9733001a5a8777c8ef2e50eb6bbe622ea336defb6f5c45cfb6a0ef9",
+        checksum: "672a8abb14ab43bc131c75d837fb2c1a80f5484aec335b152a088fb4754459fe",
         dependencies: [
             "SwiftBasicFormat_Aggregation",
             "SwiftParser_Aggregation",
@@ -76,15 +76,15 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftSyntax510",
-        checksum: "659b62b445609ec0f4dedb9b70df7c30ab81ee6cdbc88fff448876a384ab87a1"
+        checksum: "4b2f81c7f00a1e67f165f1e281433d5b8ddf8d09daee2c29325a08257ac1187e"
     ),
     prebuiltTarget(
         name: "SwiftSyntax509",
-        checksum: "84e89a9dc535051efef44f5ac0d5b40bc434b53ea31c1289130cb78926377197"
+        checksum: "1f9ac16311495d65de4785f7d4f4ccdbf3175aff4e32def1cdd0bb1fd41c751d"
     ),
     prebuiltTarget(
         name: "SwiftSyntax",
-        checksum: "36e95daf91633fc5389646201682c6afbcdd0bb7995c518b3dbe55f52a1dbec1",
+        checksum: "bb52e685d9a4837909eb3521858448d32c8d40cc0db3707b7bcf2e1b9c9c6ce7",
         dependencies: [
             "SwiftSyntax509_Aggregation",
             "SwiftSyntax510_Aggregation",
@@ -92,7 +92,7 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftRefactor",
-        checksum: "a5b75468165300557f628efa18517d59a13aaebdc59a059803004a9d75060e70",
+        checksum: "159dd2da5b9d00a9b32879534353b23a563237d5fd760a4f0694a5863266a28f",
         dependencies: [
             "SwiftBasicFormat_Aggregation",
             "SwiftParser_Aggregation",
@@ -102,7 +102,7 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftParserDiagnostics",
-        checksum: "b6f69dfffc794eba2368d7916c30c73941989c836ad3b5c5c4ea911e454c8c8a",
+        checksum: "c3cd9e9ef3cfb79fab3583c85b33803eca57edabfa4301019318e3fc89f02fac",
         dependencies: [
             "SwiftBasicFormat_Aggregation",
             "SwiftDiagnostics_Aggregation",
@@ -112,14 +112,14 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftParser",
-        checksum: "06ffb269bae61d0dd42ee451a383a7ca17273bea1cf5c7a4d78b1a57ef629221",
+        checksum: "f9bdcad4e1b8b1c0b9b7d9e887a1f1489d37bc6a3550cbb75c2b76c406d3d11b",
         dependencies: [
             "SwiftSyntax_Aggregation",
         ]
     ),
     prebuiltTarget(
         name: "SwiftOperators",
-        checksum: "1cccbea133c8e7baf25033e17fa82eafd1e819dbf2ae77903ae5c07183bf51c6",
+        checksum: "a56a6555246c47b70b74c3dcd14fda84b0ca700b347115161ee4adae48b2a280",
         dependencies: [
             "SwiftDiagnostics_Aggregation",
             "SwiftParser_Aggregation",
@@ -128,21 +128,21 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftIDEUtils",
-        checksum: "b62f84623d3deb47ae15466fb4043112c7ea755ffa4edd5932ee106c0199a46c",
+        checksum: "58c3588e2894b598c263f57ee576bea515c4f138d07a47e58ca3effff97cb0d2",
         dependencies: [
             "SwiftSyntax_Aggregation",
         ]
     ),
     prebuiltTarget(
         name: "SwiftDiagnostics",
-        checksum: "cfbb992967313ba0afc2f5501324647a2cb7642c3d842b4910f8de95daa447b5",
+        checksum: "bd56c7638fac8b8bf64ce24be86d21bcb48100ab6001987517a15628ff13456e",
         dependencies: [
             "SwiftSyntax_Aggregation",
         ]
     ),
     prebuiltTarget(
         name: "SwiftCompilerPluginMessageHandling",
-        checksum: "18e6a00d10844ac2acd3302f4922e7707a3aa34984549bdf4c2cf95fe0c9367b",
+        checksum: "d9ee641473130564a6356014d659f3ee87e3a8aec7789c2ed04bcc169c16e192",
         dependencies: [
             "SwiftDiagnostics_Aggregation",
             "SwiftOperators_Aggregation",
@@ -154,7 +154,7 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftCompilerPlugin",
-        checksum: "a3cd3b016f0d5cc377e182a8d9f2f4ecf29d70bc387d3fcf3732a43278944eb8",
+        checksum: "1321fc51e67e1e9281bd7552e9c5a7e2f9208c75e321914deb000136f6ca0a09",
         dependencies: [
             "SwiftCompilerPluginMessageHandling_Aggregation",
             "SwiftSyntaxMacros_Aggregation",
@@ -162,7 +162,7 @@ let targets: [[Target]] = [
     ),
     prebuiltTarget(
         name: "SwiftBasicFormat",
-        checksum: "46bac6cc672b9becf444d75dca61f220f8ef452f9874bf17e09067aef0127330",
+        checksum: "855e0117f11008df891e458de5db07c53b72d3684d57c208752c78382330ea72",
         dependencies: [
             "SwiftSyntax_Aggregation",
         ]
